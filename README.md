@@ -1,4 +1,4 @@
-# gallery - Lightweight and simple carousel with no dependencies
+# Gallery - lightweight and simple carousel with no dependencies
 ## Installation
 
 Setup is trivially easy. A little bit of markup...
@@ -15,6 +15,7 @@ Setup is trivially easy. A little bit of markup...
 ...inject the minified script into your website.
 
 ```html
+<link rel="stylesheet" type="text/css" href="gallery.min.css"/>
 <script src="gallery.min.js"></script>
 <script>
   new Gallery();
@@ -28,11 +29,11 @@ Siema comes with a few (optional) settings that you can change by passing an obj
 ```js
 new Gallery({
   selector : '.gallery',
-	slides : 3,
-	interval : 1,
-	duration : '.3s',
-	animation : 'ease',
-	preview : true
+  slides : 3,
+  interval : 1,
+  duration : '.3s',
+  animation : 'ease',
+  preview : true
 });
 ```
 
