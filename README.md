@@ -12,6 +12,17 @@ Setup is trivially easy. A little bit of markup...
 </div>
 ```
 
+or
+
+```html
+<div class="gallery">
+  <?php foreach( $images as $image ) { ?>
+	  <div class="gallery-item" style="background-image: url(<?= $image; ?>)"></div>
+	<?php } ?>
+</div>
+```
+
+
 ...inject the minified script into your website.
 
 ```html
