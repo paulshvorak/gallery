@@ -17,8 +17,8 @@ or
 ```html
 <div class="gallery">
   <?php foreach( $images as $image ) { ?>
-	  <div class="gallery-item" style="background-image: url(<?= $image; ?>)"></div>
-	<?php } ?>
+      <div class="gallery-item" style="background-image: url(<?= $image; ?>)"></div>
+  <?php } ?>
 </div>
 ```
 
