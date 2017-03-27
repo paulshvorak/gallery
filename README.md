@@ -45,12 +45,4 @@ new Gallery({
 - `preview` - (boolean) thumbnail
 
 
-## Browser support
-
-- IE10
-- Chrome 12
-- Firefox 16
-- Opera 15
-- Safari 4
-- Android Browser 4.0
-- iOS Safari 6.0
+## Works great in all modern browsers.
